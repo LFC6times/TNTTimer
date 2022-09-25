@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "tnttimer",
+  "version": "${version}",
+  "name": "TNT Timer",
+  "description": "Shows the time before TNT detonation",
+  "authors": [
+    "6Times"
+  ],
+  "contact": {
+    "website": "iknowwhatimdoing.ml"
+  },
+  "license": "MIT",
+  "icon": "assets/tnttimer/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ml.ikwid.tnttimer.Tnttimer"
+    ]
+  },
+  "mixins": [
+    "tnttimer.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "minecraft": "1.19.2"
+  }
+}
